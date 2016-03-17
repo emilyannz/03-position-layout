@@ -10,46 +10,42 @@ body {
 }
 
 .banner{
-  position:relative;
-}
-
-.banner__bg {
   width: 100%;
 }
 
 .banner__badge{
   position: absolute;
-  top: 7rem;
-  right: 7rem
+  top: 15rem;
+  left: 1rem;
   border-style: solid;
   border-color: #6c6565;
+  background-color: white;
 }
 
 .container {
-  max-width;
+  width:100%;
   margin: auto;
-  padding-top: 6rem;
+  padding-top: 8rem;
 }
 
 .row {
-max-width;
+  width: 100%
 }
 
-.left-column, .right-column {
+.sidebar, .main-article {
   float: left;
   margin: 0 1rem;
 }
 
-.left-column {
+.sidebar {
   font-family: sans-serif;
   width: calc(40% - 2rem);
-  background-color: #9ffafc;
-  padding: 1rem
+  padding: 1rem;
 }
 
-.right-column {
+.main-article {
+  float: left;
   font-family: sans-serif;
   width: calc(60% - 2rem);
-  background: #9ffafc;
   padding: 1rem
 }
