@@ -1,29 +1,55 @@
-html {
+* {
   box-sizing: border-box;
 }
-*, *:before, *:after {
+*::before, *::after {
   box-sizing: inherit;
 }
 
 body {
   margin: 0;
-  padding: 0;
-  background
-  font-family: sans-serif;
-  font-size: 14px;
 }
-
-
 
 .banner{
-position:relative;
-width: 100%;
-overflow: auto;
+  position:relative;
 }
 
-.badge{
-position: relative;
-float: left;
-bottom: 15rem;
-overflow: auto;
+.banner__bg {
+  width: 100%;
+}
+
+.banner__badge{
+  position: absolute;
+  top: 7rem;
+  right: 7rem
+  border-style: solid;
+  border-color: #6c6565;
+}
+
+.container {
+  max-width;
+  margin: auto;
+  padding-top: 6rem;
+}
+
+.row {
+max-width;
+}
+
+.left-column, .right-column {
+  float: left;
+  margin: 0 1rem;
+}
+
+.left-column {
+  font-family: sans-serif;
+  width: calc(40% - 2rem);
+  background-color: #9ffafc;
+  padding: 1rem
+}
+
+.right-column {
+  font-family: sans-serif;
+  width: calc(60% - 2rem);
+  background: #9ffafc;
+  padding: 1rem
 }
